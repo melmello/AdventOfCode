@@ -2,7 +2,7 @@
 main:
 - Julia version: 1.8.2
 - Author: melmello
-- Date: 2022-12-11
+- Date: 2022-12-12
 =#
 elves = []
 open("input.txt") do file
