@@ -12,8 +12,6 @@ open("input.txt") do file
     ln2 = []
     ln3 = []
     for ln in eachline(file)
-        println(row_count)
-        println(ln)
         if row_count == 0
             ln1 = split(ln, "")
             row_count += 1
